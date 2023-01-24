@@ -2,19 +2,19 @@ let numberOne = Number(prompt("Digite aqui o primeiro número:"));
 let numberTwo = Number(prompt("Digite aqui o segundo número:"));
 
 const mySum = numberOne + numberTwo;
-alert(mySum);
+alert(`A soma dos dois números é ${mySum}`);
 
 const mySub = numberOne - numberTwo;
-alert(mySub);
+alert(`A subtração dos dois números é ${mySub}`);
 
 const myMult = numberOne * numberTwo;
-alert(myMult);
+alert(`A multiplicação dos dois números é ${myMult}`);
 
 const myDiv = numberOne / numberTwo;
-alert(myDiv);
+alert(`A divisão dos dois números é ${myDiv}`);
 
 const myRest = numberOne % numberTwo;
-alert(myRest);
+alert(`O resto da divisão dos dois números é ${myRest}`);
 
 if (mySum % 2 == 0) {
   alert("A soma dos números é par!");
