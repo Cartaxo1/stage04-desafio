@@ -25,5 +25,5 @@ if (mySum % 2 == 0) {
 if (numberOne === numberTwo) {
   alert("Os dois números são iguais!");
 } else {
-  alert("Os dois números sao diferentes!");
+  alert("Os dois números são diferentes!");
 }
